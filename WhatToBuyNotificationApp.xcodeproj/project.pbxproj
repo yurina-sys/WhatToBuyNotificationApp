@@ -7,10 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10A5A462650ED3A00D0BC10 /* BuyItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A452650ED3A00D0BC10 /* BuyItemDetailViewController.swift */; };
+		F10A5A4D2650EDA400D0BC10 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A4C2650EDA400D0BC10 /* SettingViewController.swift */; };
+		F10A5A552650EDBC00D0BC10 /* BuyItemRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A542650EDBC00D0BC10 /* BuyItemRegisterViewController.swift */; };
+		F10A5A5A2650EDD100D0BC10 /* BuyItemEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A592650EDD100D0BC10 /* BuyItemEditViewController.swift */; };
+		F10A5A5F2650EDF700D0BC10 /* BuyItemDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5A5E2650EDF700D0BC10 /* BuyItemDetail.storyboard */; };
+		F10A5A642650EE0500D0BC10 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5A632650EE0500D0BC10 /* Setting.storyboard */; };
+		F10A5A692650EE1700D0BC10 /* BuyItemRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5A682650EE1700D0BC10 /* BuyItemRegister.storyboard */; };
+		F10A5A6E2650EE2700D0BC10 /* BuyItemEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5A6D2650EE2700D0BC10 /* BuyItemEdit.storyboard */; };
+		F10A5A7B2650EF1300D0BC10 /* BuyItemListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7A2650EF1300D0BC10 /* BuyItemListPresenter.swift */; };
+		F10A5A802650F01800D0BC10 /* BuyItemDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7F2650F01800D0BC10 /* BuyItemDetailPresenter.swift */; };
+		F10A5A852650F02600D0BC10 /* SettingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A842650F02600D0BC10 /* SettingPresenter.swift */; };
+		F10A5A8A2650F03900D0BC10 /* BuyItemRegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A892650F03900D0BC10 /* BuyItemRegisterPresenter.swift */; };
+		F10A5A8F2650F04B00D0BC10 /* BuyItemEditPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A8E2650F04B00D0BC10 /* BuyItemEditPresenter.swift */; };
+		F10A5A942650F07600D0BC10 /* BuyItemListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A932650F07600D0BC10 /* BuyItemListRouter.swift */; };
+		F10A5A992650F08400D0BC10 /* BuyItemDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A982650F08400D0BC10 /* BuyItemDetailRouter.swift */; };
+		F10A5A9E2650F09000D0BC10 /* SettingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A9D2650F09000D0BC10 /* SettingRouter.swift */; };
+		F10A5AA32650F0A300D0BC10 /* BuyItemRegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AA22650F0A300D0BC10 /* BuyItemRegisterRouter.swift */; };
+		F10A5AA82650F0AE00D0BC10 /* BuyItemEditRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AA72650F0AE00D0BC10 /* BuyItemEditRouter.swift */; };
+		F10A5AAD2650F0CD00D0BC10 /* BuyItemListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AAC2650F0CD00D0BC10 /* BuyItemListInteractor.swift */; };
+		F10A5AB22650F0E100D0BC10 /* BuyItemDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AB12650F0E100D0BC10 /* BuyItemDetailInteractor.swift */; };
+		F10A5AB72650F0EC00D0BC10 /* SettingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AB62650F0EC00D0BC10 /* SettingInteractor.swift */; };
+		F10A5ABC2650F10800D0BC10 /* BuyItemRegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5ABB2650F10800D0BC10 /* BuyItemRegisterInteractor.swift */; };
+		F10A5AC12650F11800D0BC10 /* BuyItemEditInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AC02650F11800D0BC10 /* BuyItemEditInteractor.swift */; };
 		F1C81F6B261B5AC700B4DDD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */; };
 		F1C81F6D261B5AC700B4DDD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */; };
-		F1C81F6F261B5AC700B4DDD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6E261B5AC700B4DDD6 /* ViewController.swift */; };
-		F1C81F72261B5AC700B4DDD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C81F70261B5AC700B4DDD6 /* Main.storyboard */; };
+		F1C81F6F261B5AC700B4DDD6 /* BuyItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6E261B5AC700B4DDD6 /* BuyItemListViewController.swift */; };
+		F1C81F72261B5AC700B4DDD6 /* BuyItemList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C81F70261B5AC700B4DDD6 /* BuyItemList.storyboard */; };
 		F1C81F74261B5AC800B4DDD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C81F73261B5AC800B4DDD6 /* Assets.xcassets */; };
 		F1C81F77261B5AC800B4DDD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C81F75261B5AC800B4DDD6 /* LaunchScreen.storyboard */; };
 		F1C81F82261B5AC800B4DDD6 /* WhatToBuyNotificationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F81261B5AC800B4DDD6 /* WhatToBuyNotificationAppTests.swift */; };
@@ -35,11 +58,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F10A5A452650ED3A00D0BC10 /* BuyItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemDetailViewController.swift; sourceTree = "<group>"; };
+		F10A5A4C2650EDA400D0BC10 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F10A5A542650EDBC00D0BC10 /* BuyItemRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemRegisterViewController.swift; sourceTree = "<group>"; };
+		F10A5A592650EDD100D0BC10 /* BuyItemEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemEditViewController.swift; sourceTree = "<group>"; };
+		F10A5A5E2650EDF700D0BC10 /* BuyItemDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuyItemDetail.storyboard; sourceTree = "<group>"; };
+		F10A5A632650EE0500D0BC10 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		F10A5A682650EE1700D0BC10 /* BuyItemRegister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuyItemRegister.storyboard; sourceTree = "<group>"; };
+		F10A5A6D2650EE2700D0BC10 /* BuyItemEdit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuyItemEdit.storyboard; sourceTree = "<group>"; };
+		F10A5A7A2650EF1300D0BC10 /* BuyItemListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemListPresenter.swift; sourceTree = "<group>"; };
+		F10A5A7F2650F01800D0BC10 /* BuyItemDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemDetailPresenter.swift; sourceTree = "<group>"; };
+		F10A5A842650F02600D0BC10 /* SettingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPresenter.swift; sourceTree = "<group>"; };
+		F10A5A892650F03900D0BC10 /* BuyItemRegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemRegisterPresenter.swift; sourceTree = "<group>"; };
+		F10A5A8E2650F04B00D0BC10 /* BuyItemEditPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemEditPresenter.swift; sourceTree = "<group>"; };
+		F10A5A932650F07600D0BC10 /* BuyItemListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemListRouter.swift; sourceTree = "<group>"; };
+		F10A5A982650F08400D0BC10 /* BuyItemDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemDetailRouter.swift; sourceTree = "<group>"; };
+		F10A5A9D2650F09000D0BC10 /* SettingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRouter.swift; sourceTree = "<group>"; };
+		F10A5AA22650F0A300D0BC10 /* BuyItemRegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemRegisterRouter.swift; sourceTree = "<group>"; };
+		F10A5AA72650F0AE00D0BC10 /* BuyItemEditRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemEditRouter.swift; sourceTree = "<group>"; };
+		F10A5AAC2650F0CD00D0BC10 /* BuyItemListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemListInteractor.swift; sourceTree = "<group>"; };
+		F10A5AB12650F0E100D0BC10 /* BuyItemDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemDetailInteractor.swift; sourceTree = "<group>"; };
+		F10A5AB62650F0EC00D0BC10 /* SettingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingInteractor.swift; sourceTree = "<group>"; };
+		F10A5ABB2650F10800D0BC10 /* BuyItemRegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemRegisterInteractor.swift; sourceTree = "<group>"; };
+		F10A5AC02650F11800D0BC10 /* BuyItemEditInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemEditInteractor.swift; sourceTree = "<group>"; };
 		F1C81F67261B5AC700B4DDD6 /* WhatToBuyNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToBuyNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1C81F6E261B5AC700B4DDD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F1C81F71261B5AC700B4DDD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C81F6E261B5AC700B4DDD6 /* BuyItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemListViewController.swift; sourceTree = "<group>"; };
+		F1C81F71261B5AC700B4DDD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BuyItemList.storyboard; sourceTree = "<group>"; };
 		F1C81F73261B5AC800B4DDD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1C81F76261B5AC800B4DDD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1C81F78261B5AC800B4DDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +122,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F10A5A4A2650ED6B00D0BC10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F10A5A4B2650ED8000D0BC10 /* storyboard */,
+				F1C81F6E261B5AC700B4DDD6 /* BuyItemListViewController.swift */,
+				F10A5A452650ED3A00D0BC10 /* BuyItemDetailViewController.swift */,
+				F10A5A4C2650EDA400D0BC10 /* SettingViewController.swift */,
+				F10A5A542650EDBC00D0BC10 /* BuyItemRegisterViewController.swift */,
+				F10A5A592650EDD100D0BC10 /* BuyItemEditViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F10A5A4B2650ED8000D0BC10 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F1C81F70261B5AC700B4DDD6 /* BuyItemList.storyboard */,
+				F10A5A5E2650EDF700D0BC10 /* BuyItemDetail.storyboard */,
+				F10A5A632650EE0500D0BC10 /* Setting.storyboard */,
+				F10A5A682650EE1700D0BC10 /* BuyItemRegister.storyboard */,
+				F10A5A6D2650EE2700D0BC10 /* BuyItemEdit.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		F10A5A722650EE7F00D0BC10 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F10A5A932650F07600D0BC10 /* BuyItemListRouter.swift */,
+				F10A5A982650F08400D0BC10 /* BuyItemDetailRouter.swift */,
+				F10A5A9D2650F09000D0BC10 /* SettingRouter.swift */,
+				F10A5AA22650F0A300D0BC10 /* BuyItemRegisterRouter.swift */,
+				F10A5AA72650F0AE00D0BC10 /* BuyItemEditRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F10A5A762650EEA500D0BC10 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F10A5AAC2650F0CD00D0BC10 /* BuyItemListInteractor.swift */,
+				F10A5AB12650F0E100D0BC10 /* BuyItemDetailInteractor.swift */,
+				F10A5AB62650F0EC00D0BC10 /* SettingInteractor.swift */,
+				F10A5ABB2650F10800D0BC10 /* BuyItemRegisterInteractor.swift */,
+				F10A5AC02650F11800D0BC10 /* BuyItemEditInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F10A5A772650EEC900D0BC10 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F10A5A7A2650EF1300D0BC10 /* BuyItemListPresenter.swift */,
+				F10A5A7F2650F01800D0BC10 /* BuyItemDetailPresenter.swift */,
+				F10A5A842650F02600D0BC10 /* SettingPresenter.swift */,
+				F10A5A892650F03900D0BC10 /* BuyItemRegisterPresenter.swift */,
+				F10A5A8E2650F04B00D0BC10 /* BuyItemEditPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F10A5A792650EEDF00D0BC10 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		F1C81F5E261B5AC700B4DDD6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +213,13 @@
 		F1C81F69261B5AC700B4DDD6 /* WhatToBuyNotificationApp */ = {
 			isa = PBXGroup;
 			children = (
+				F10A5A4A2650ED6B00D0BC10 /* View */,
+				F10A5A772650EEC900D0BC10 /* Presenter */,
+				F10A5A722650EE7F00D0BC10 /* Router */,
+				F10A5A762650EEA500D0BC10 /* Interactor */,
+				F10A5A792650EEDF00D0BC10 /* Entity */,
 				F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */,
 				F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */,
-				F1C81F6E261B5AC700B4DDD6 /* ViewController.swift */,
-				F1C81F70261B5AC700B4DDD6 /* Main.storyboard */,
 				F1C81F73261B5AC800B4DDD6 /* Assets.xcassets */,
 				F1C81F75261B5AC800B4DDD6 /* LaunchScreen.storyboard */,
 				F1C81F78261B5AC800B4DDD6 /* Info.plist */,
@@ -232,8 +349,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1C81F77261B5AC800B4DDD6 /* LaunchScreen.storyboard in Resources */,
+				F10A5A692650EE1700D0BC10 /* BuyItemRegister.storyboard in Resources */,
+				F10A5A6E2650EE2700D0BC10 /* BuyItemEdit.storyboard in Resources */,
+				F10A5A5F2650EDF700D0BC10 /* BuyItemDetail.storyboard in Resources */,
+				F10A5A642650EE0500D0BC10 /* Setting.storyboard in Resources */,
 				F1C81F74261B5AC800B4DDD6 /* Assets.xcassets in Resources */,
-				F1C81F72261B5AC700B4DDD6 /* Main.storyboard in Resources */,
+				F1C81F72261B5AC700B4DDD6 /* BuyItemList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +379,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1C81F6F261B5AC700B4DDD6 /* ViewController.swift in Sources */,
+				F10A5A7B2650EF1300D0BC10 /* BuyItemListPresenter.swift in Sources */,
+				F10A5A942650F07600D0BC10 /* BuyItemListRouter.swift in Sources */,
+				F10A5AA82650F0AE00D0BC10 /* BuyItemEditRouter.swift in Sources */,
+				F10A5AB72650F0EC00D0BC10 /* SettingInteractor.swift in Sources */,
+				F10A5A4D2650EDA400D0BC10 /* SettingViewController.swift in Sources */,
+				F10A5AAD2650F0CD00D0BC10 /* BuyItemListInteractor.swift in Sources */,
+				F10A5AB22650F0E100D0BC10 /* BuyItemDetailInteractor.swift in Sources */,
+				F10A5A8F2650F04B00D0BC10 /* BuyItemEditPresenter.swift in Sources */,
+				F1C81F6F261B5AC700B4DDD6 /* BuyItemListViewController.swift in Sources */,
+				F10A5A802650F01800D0BC10 /* BuyItemDetailPresenter.swift in Sources */,
+				F10A5A9E2650F09000D0BC10 /* SettingRouter.swift in Sources */,
 				F1C81F6B261B5AC700B4DDD6 /* AppDelegate.swift in Sources */,
+				F10A5A852650F02600D0BC10 /* SettingPresenter.swift in Sources */,
+				F10A5ABC2650F10800D0BC10 /* BuyItemRegisterInteractor.swift in Sources */,
+				F10A5AC12650F11800D0BC10 /* BuyItemEditInteractor.swift in Sources */,
 				F1C81F6D261B5AC700B4DDD6 /* SceneDelegate.swift in Sources */,
+				F10A5A992650F08400D0BC10 /* BuyItemDetailRouter.swift in Sources */,
+				F10A5AA32650F0A300D0BC10 /* BuyItemRegisterRouter.swift in Sources */,
+				F10A5A5A2650EDD100D0BC10 /* BuyItemEditViewController.swift in Sources */,
+				F10A5A8A2650F03900D0BC10 /* BuyItemRegisterPresenter.swift in Sources */,
+				F10A5A462650ED3A00D0BC10 /* BuyItemDetailViewController.swift in Sources */,
+				F10A5A552650EDBC00D0BC10 /* BuyItemRegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +436,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F1C81F70261B5AC700B4DDD6 /* Main.storyboard */ = {
+		F1C81F70261B5AC700B4DDD6 /* BuyItemList.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F1C81F71261B5AC700B4DDD6 /* Base */,
 			);
-			name = Main.storyboard;
+			name = BuyItemList.storyboard;
 			sourceTree = "<group>";
 		};
 		F1C81F75261B5AC800B4DDD6 /* LaunchScreen.storyboard */ = {
