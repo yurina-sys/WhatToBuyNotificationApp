@@ -30,6 +30,8 @@
 		F10A5AB72650F0EC00D0BC10 /* SettingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AB62650F0EC00D0BC10 /* SettingInteractor.swift */; };
 		F10A5ABC2650F10800D0BC10 /* BuyItemRegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5ABB2650F10800D0BC10 /* BuyItemRegisterInteractor.swift */; };
 		F10A5AC12650F11800D0BC10 /* BuyItemEditInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AC02650F11800D0BC10 /* BuyItemEditInteractor.swift */; };
+		F10A5AC62650F9F300D0BC10 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AC52650F9F300D0BC10 /* TabBarController.swift */; };
+		F10A5AD1265110FB00D0BC10 /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5AD0265110FB00D0BC10 /* TabBarController.storyboard */; };
 		F1C81F6B261B5AC700B4DDD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */; };
 		F1C81F6D261B5AC700B4DDD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */; };
 		F1C81F6F261B5AC700B4DDD6 /* BuyItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6E261B5AC700B4DDD6 /* BuyItemListViewController.swift */; };
@@ -81,6 +83,8 @@
 		F10A5AB62650F0EC00D0BC10 /* SettingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingInteractor.swift; sourceTree = "<group>"; };
 		F10A5ABB2650F10800D0BC10 /* BuyItemRegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemRegisterInteractor.swift; sourceTree = "<group>"; };
 		F10A5AC02650F11800D0BC10 /* BuyItemEditInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemEditInteractor.swift; sourceTree = "<group>"; };
+		F10A5AC52650F9F300D0BC10 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F10A5AD0265110FB00D0BC10 /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
 		F1C81F67261B5AC700B4DDD6 /* WhatToBuyNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToBuyNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 				F10A5A4C2650EDA400D0BC10 /* SettingViewController.swift */,
 				F10A5A542650EDBC00D0BC10 /* BuyItemRegisterViewController.swift */,
 				F10A5A592650EDD100D0BC10 /* BuyItemEditViewController.swift */,
+				F10A5AC52650F9F300D0BC10 /* TabBarController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				F10A5A632650EE0500D0BC10 /* Setting.storyboard */,
 				F10A5A682650EE1700D0BC10 /* BuyItemRegister.storyboard */,
 				F10A5A6D2650EE2700D0BC10 /* BuyItemEdit.storyboard */,
+				F10A5AD0265110FB00D0BC10 /* TabBarController.storyboard */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -350,6 +356,7 @@
 			files = (
 				F1C81F77261B5AC800B4DDD6 /* LaunchScreen.storyboard in Resources */,
 				F10A5A692650EE1700D0BC10 /* BuyItemRegister.storyboard in Resources */,
+				F10A5AD1265110FB00D0BC10 /* TabBarController.storyboard in Resources */,
 				F10A5A6E2650EE2700D0BC10 /* BuyItemEdit.storyboard in Resources */,
 				F10A5A5F2650EDF700D0BC10 /* BuyItemDetail.storyboard in Resources */,
 				F10A5A642650EE0500D0BC10 /* Setting.storyboard in Resources */,
@@ -384,6 +391,7 @@
 				F10A5AA82650F0AE00D0BC10 /* BuyItemEditRouter.swift in Sources */,
 				F10A5AB72650F0EC00D0BC10 /* SettingInteractor.swift in Sources */,
 				F10A5A4D2650EDA400D0BC10 /* SettingViewController.swift in Sources */,
+				F10A5AC62650F9F300D0BC10 /* TabBarController.swift in Sources */,
 				F10A5AAD2650F0CD00D0BC10 /* BuyItemListInteractor.swift in Sources */,
 				F10A5AB22650F0E100D0BC10 /* BuyItemDetailInteractor.swift in Sources */,
 				F10A5A8F2650F04B00D0BC10 /* BuyItemEditPresenter.swift in Sources */,
