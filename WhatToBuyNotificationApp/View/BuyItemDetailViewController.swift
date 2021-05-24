@@ -11,19 +11,19 @@ class BuyItemDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.navigationItem.title = "ボディクリーム"
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: NSLocalizedString("test", comment: ""), style: .plain, target: self, action: #selector(self.presentInputItemVC))
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // 買うものインプット画面（編集モード）へ遷移
+    @objc func presentInputItemVC() {
+        if let presentItemVC = R.storyboard.inputBuyItem.inputBuyItem() {
+            
+            present(presentItemVC, animated: true, completion: nil)
+        }
     }
-    */
-
+    
+    
 }

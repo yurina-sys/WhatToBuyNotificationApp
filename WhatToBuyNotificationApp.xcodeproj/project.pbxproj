@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103A443DFC817AF70E79C001 /* Pods_WhatToBuyNotificationApp_WhatToBuyNotificationAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FD67B6242CB4BFCBB7B2F2 /* Pods_WhatToBuyNotificationApp_WhatToBuyNotificationAppUITests.framework */; };
+		8B94D12F07CF1FE61FCACDCF /* Pods_WhatToBuyNotificationAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA39DE7C47CA495E05E9BD5A /* Pods_WhatToBuyNotificationAppTests.framework */; };
+		BC9D202D1B4F6F16BF750C24 /* Pods_WhatToBuyNotificationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021FBE480772E5FE5233D69 /* Pods_WhatToBuyNotificationApp.framework */; };
 		F10A5A462650ED3A00D0BC10 /* BuyItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A452650ED3A00D0BC10 /* BuyItemDetailViewController.swift */; };
 		F10A5A4D2650EDA400D0BC10 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A4C2650EDA400D0BC10 /* SettingViewController.swift */; };
-		F10A5A552650EDBC00D0BC10 /* BuyItemRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A542650EDBC00D0BC10 /* BuyItemRegisterViewController.swift */; };
-		F10A5A5A2650EDD100D0BC10 /* BuyItemEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A592650EDD100D0BC10 /* BuyItemEditViewController.swift */; };
+		F10A5A552650EDBC00D0BC10 /* InputBuyItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A542650EDBC00D0BC10 /* InputBuyItemViewController.swift */; };
 		F10A5A5F2650EDF700D0BC10 /* BuyItemDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5A5E2650EDF700D0BC10 /* BuyItemDetail.storyboard */; };
 		F10A5A642650EE0500D0BC10 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5A632650EE0500D0BC10 /* Setting.storyboard */; };
-		F10A5A692650EE1700D0BC10 /* BuyItemRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5A682650EE1700D0BC10 /* BuyItemRegister.storyboard */; };
-		F10A5A6E2650EE2700D0BC10 /* BuyItemEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5A6D2650EE2700D0BC10 /* BuyItemEdit.storyboard */; };
+		F10A5A692650EE1700D0BC10 /* InputBuyItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5A682650EE1700D0BC10 /* InputBuyItem.storyboard */; };
 		F10A5A7B2650EF1300D0BC10 /* BuyItemListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7A2650EF1300D0BC10 /* BuyItemListPresenter.swift */; };
 		F10A5A802650F01800D0BC10 /* BuyItemDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7F2650F01800D0BC10 /* BuyItemDetailPresenter.swift */; };
 		F10A5A852650F02600D0BC10 /* SettingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A842650F02600D0BC10 /* SettingPresenter.swift */; };
@@ -32,6 +33,10 @@
 		F10A5AC12650F11800D0BC10 /* BuyItemEditInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AC02650F11800D0BC10 /* BuyItemEditInteractor.swift */; };
 		F10A5AC62650F9F300D0BC10 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AC52650F9F300D0BC10 /* TabBarController.swift */; };
 		F10A5AD1265110FB00D0BC10 /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5AD0265110FB00D0BC10 /* TabBarController.storyboard */; };
+		F16E474A2656B383009CFF8C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F16E474C2656B383009CFF8C /* Localizable.strings */; };
+		F1A147162652B55C00F4CF1F /* ContainerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A147152652B55C00F4CF1F /* ContainerTableViewController.swift */; };
+		F1A147202652B64F00F4CF1F /* BuyListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1471E2652B64F00F4CF1F /* BuyListTableViewCell.swift */; };
+		F1A147212652B64F00F4CF1F /* BuyListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A1471F2652B64F00F4CF1F /* BuyListTableViewCell.xib */; };
 		F1C81F6B261B5AC700B4DDD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */; };
 		F1C81F6D261B5AC700B4DDD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */; };
 		F1C81F6F261B5AC700B4DDD6 /* BuyItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6E261B5AC700B4DDD6 /* BuyItemListViewController.swift */; };
@@ -40,6 +45,7 @@
 		F1C81F77261B5AC800B4DDD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C81F75261B5AC800B4DDD6 /* LaunchScreen.storyboard */; };
 		F1C81F82261B5AC800B4DDD6 /* WhatToBuyNotificationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F81261B5AC800B4DDD6 /* WhatToBuyNotificationAppTests.swift */; };
 		F1C81F8D261B5AC800B4DDD6 /* WhatToBuyNotificationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F8C261B5AC800B4DDD6 /* WhatToBuyNotificationAppUITests.swift */; };
+		F1ED303B26569CB6002065D3 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ED303A26569CB6002065D3 /* R.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,14 +66,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07F51460C3C76C4DF53D2052 /* Pods-WhatToBuyNotificationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToBuyNotificationApp.debug.xcconfig"; path = "Target Support Files/Pods-WhatToBuyNotificationApp/Pods-WhatToBuyNotificationApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1CF28333DB9D4C3F19A22178 /* Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests.release.xcconfig"; path = "Target Support Files/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2021FBE480772E5FE5233D69 /* Pods_WhatToBuyNotificationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatToBuyNotificationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EB48519D669D77B8CD6DBF /* Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A3B3688ABE71EA853A6BE9F /* Pods-WhatToBuyNotificationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToBuyNotificationApp.release.xcconfig"; path = "Target Support Files/Pods-WhatToBuyNotificationApp/Pods-WhatToBuyNotificationApp.release.xcconfig"; sourceTree = "<group>"; };
+		AA39DE7C47CA495E05E9BD5A /* Pods_WhatToBuyNotificationAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatToBuyNotificationAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC050B6DBDBBC96615FA83C6 /* Pods-WhatToBuyNotificationAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToBuyNotificationAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WhatToBuyNotificationAppTests/Pods-WhatToBuyNotificationAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFDDD747D670D40E1DAA4CCB /* Pods-WhatToBuyNotificationAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToBuyNotificationAppTests.release.xcconfig"; path = "Target Support Files/Pods-WhatToBuyNotificationAppTests/Pods-WhatToBuyNotificationAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		F10A5A452650ED3A00D0BC10 /* BuyItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemDetailViewController.swift; sourceTree = "<group>"; };
 		F10A5A4C2650EDA400D0BC10 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		F10A5A542650EDBC00D0BC10 /* BuyItemRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemRegisterViewController.swift; sourceTree = "<group>"; };
-		F10A5A592650EDD100D0BC10 /* BuyItemEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemEditViewController.swift; sourceTree = "<group>"; };
+		F10A5A542650EDBC00D0BC10 /* InputBuyItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBuyItemViewController.swift; sourceTree = "<group>"; };
 		F10A5A5E2650EDF700D0BC10 /* BuyItemDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuyItemDetail.storyboard; sourceTree = "<group>"; };
 		F10A5A632650EE0500D0BC10 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
-		F10A5A682650EE1700D0BC10 /* BuyItemRegister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuyItemRegister.storyboard; sourceTree = "<group>"; };
-		F10A5A6D2650EE2700D0BC10 /* BuyItemEdit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuyItemEdit.storyboard; sourceTree = "<group>"; };
+		F10A5A682650EE1700D0BC10 /* InputBuyItem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InputBuyItem.storyboard; sourceTree = "<group>"; };
 		F10A5A7A2650EF1300D0BC10 /* BuyItemListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemListPresenter.swift; sourceTree = "<group>"; };
 		F10A5A7F2650F01800D0BC10 /* BuyItemDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemDetailPresenter.swift; sourceTree = "<group>"; };
 		F10A5A842650F02600D0BC10 /* SettingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPresenter.swift; sourceTree = "<group>"; };
@@ -85,6 +97,13 @@
 		F10A5AC02650F11800D0BC10 /* BuyItemEditInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemEditInteractor.swift; sourceTree = "<group>"; };
 		F10A5AC52650F9F300D0BC10 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F10A5AD0265110FB00D0BC10 /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
+		F11F048E2656BF24009BF21A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F16E47392656B31F009CFF8C /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F16E474B2656B383009CFF8C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F16E47532656B6D3009CFF8C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/BuyItemList.strings; sourceTree = "<group>"; };
+		F1A147152652B55C00F4CF1F /* ContainerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTableViewController.swift; sourceTree = "<group>"; };
+		F1A1471E2652B64F00F4CF1F /* BuyListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListTableViewCell.swift; sourceTree = "<group>"; };
+		F1A1471F2652B64F00F4CF1F /* BuyListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyListTableViewCell.xib; sourceTree = "<group>"; };
 		F1C81F67261B5AC700B4DDD6 /* WhatToBuyNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToBuyNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +118,8 @@
 		F1C81F88261B5AC800B4DDD6 /* WhatToBuyNotificationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatToBuyNotificationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C81F8C261B5AC800B4DDD6 /* WhatToBuyNotificationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToBuyNotificationAppUITests.swift; sourceTree = "<group>"; };
 		F1C81F8E261B5AC800B4DDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1ED303A26569CB6002065D3 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		F7FD67B6242CB4BFCBB7B2F2 /* Pods_WhatToBuyNotificationApp_WhatToBuyNotificationAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatToBuyNotificationApp_WhatToBuyNotificationAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9D202D1B4F6F16BF750C24 /* Pods_WhatToBuyNotificationApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B94D12F07CF1FE61FCACDCF /* Pods_WhatToBuyNotificationAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,12 +143,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				103A443DFC817AF70E79C001 /* Pods_WhatToBuyNotificationApp_WhatToBuyNotificationAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BB38E2C13E9546760D318DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2021FBE480772E5FE5233D69 /* Pods_WhatToBuyNotificationApp.framework */,
+				F7FD67B6242CB4BFCBB7B2F2 /* Pods_WhatToBuyNotificationApp_WhatToBuyNotificationAppUITests.framework */,
+				AA39DE7C47CA495E05E9BD5A /* Pods_WhatToBuyNotificationAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7EC3E4C27D4B3963B47894D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07F51460C3C76C4DF53D2052 /* Pods-WhatToBuyNotificationApp.debug.xcconfig */,
+				9A3B3688ABE71EA853A6BE9F /* Pods-WhatToBuyNotificationApp.release.xcconfig */,
+				38EB48519D669D77B8CD6DBF /* Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests.debug.xcconfig */,
+				1CF28333DB9D4C3F19A22178 /* Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests.release.xcconfig */,
+				BC050B6DBDBBC96615FA83C6 /* Pods-WhatToBuyNotificationAppTests.debug.xcconfig */,
+				BFDDD747D670D40E1DAA4CCB /* Pods-WhatToBuyNotificationAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F10A5A4A2650ED6B00D0BC10 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,9 +180,9 @@
 				F1C81F6E261B5AC700B4DDD6 /* BuyItemListViewController.swift */,
 				F10A5A452650ED3A00D0BC10 /* BuyItemDetailViewController.swift */,
 				F10A5A4C2650EDA400D0BC10 /* SettingViewController.swift */,
-				F10A5A542650EDBC00D0BC10 /* BuyItemRegisterViewController.swift */,
-				F10A5A592650EDD100D0BC10 /* BuyItemEditViewController.swift */,
+				F10A5A542650EDBC00D0BC10 /* InputBuyItemViewController.swift */,
 				F10A5AC52650F9F300D0BC10 /* TabBarController.swift */,
+				F1A147152652B55C00F4CF1F /* ContainerTableViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,11 +190,11 @@
 		F10A5A4B2650ED8000D0BC10 /* storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				F1A1471D2652B5E800F4CF1F /* CustomCell */,
 				F1C81F70261B5AC700B4DDD6 /* BuyItemList.storyboard */,
 				F10A5A5E2650EDF700D0BC10 /* BuyItemDetail.storyboard */,
 				F10A5A632650EE0500D0BC10 /* Setting.storyboard */,
-				F10A5A682650EE1700D0BC10 /* BuyItemRegister.storyboard */,
-				F10A5A6D2650EE2700D0BC10 /* BuyItemEdit.storyboard */,
+				F10A5A682650EE1700D0BC10 /* InputBuyItem.storyboard */,
 				F10A5AD0265110FB00D0BC10 /* TabBarController.storyboard */,
 			);
 			path = storyboard;
@@ -196,6 +243,15 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
+		F1A1471D2652B5E800F4CF1F /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1A1471E2652B64F00F4CF1F /* BuyListTableViewCell.swift */,
+				F1A1471F2652B64F00F4CF1F /* BuyListTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
 		F1C81F5E261B5AC700B4DDD6 = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +259,8 @@
 				F1C81F80261B5AC800B4DDD6 /* WhatToBuyNotificationAppTests */,
 				F1C81F8B261B5AC800B4DDD6 /* WhatToBuyNotificationAppUITests */,
 				F1C81F68261B5AC700B4DDD6 /* Products */,
+				E7EC3E4C27D4B3963B47894D /* Pods */,
+				6BB38E2C13E9546760D318DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -229,6 +287,8 @@
 				F1C81F73261B5AC800B4DDD6 /* Assets.xcassets */,
 				F1C81F75261B5AC800B4DDD6 /* LaunchScreen.storyboard */,
 				F1C81F78261B5AC800B4DDD6 /* Info.plist */,
+				F1ED303A26569CB6002065D3 /* R.generated.swift */,
+				F16E474C2656B383009CFF8C /* Localizable.strings */,
 			);
 			path = WhatToBuyNotificationApp;
 			sourceTree = "<group>";
@@ -258,9 +318,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1C81F91261B5AC800B4DDD6 /* Build configuration list for PBXNativeTarget "WhatToBuyNotificationApp" */;
 			buildPhases = (
+				B4CD4F87DDBA905F815A01A8 /* [CP] Check Pods Manifest.lock */,
+				F1ED302926569B9C002065D3 /* ShellScript */,
 				F1C81F63261B5AC700B4DDD6 /* Sources */,
 				F1C81F64261B5AC700B4DDD6 /* Frameworks */,
 				F1C81F65261B5AC700B4DDD6 /* Resources */,
+				04A7C06F8F0574122962C7DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1C81F94261B5AC800B4DDD6 /* Build configuration list for PBXNativeTarget "WhatToBuyNotificationAppTests" */;
 			buildPhases = (
+				B6FA513BB8554ABAD4BCA9A9 /* [CP] Check Pods Manifest.lock */,
 				F1C81F79261B5AC800B4DDD6 /* Sources */,
 				F1C81F7A261B5AC800B4DDD6 /* Frameworks */,
 				F1C81F7B261B5AC800B4DDD6 /* Resources */,
@@ -293,9 +357,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1C81F97261B5AC800B4DDD6 /* Build configuration list for PBXNativeTarget "WhatToBuyNotificationAppUITests" */;
 			buildPhases = (
+				AC803CA98CE94E8FE7AE7050 /* [CP] Check Pods Manifest.lock */,
 				F1C81F84261B5AC800B4DDD6 /* Sources */,
 				F1C81F85261B5AC800B4DDD6 /* Frameworks */,
 				F1C81F86261B5AC800B4DDD6 /* Resources */,
+				9F7AFDC16312091F56D94CEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,11 +397,12 @@
 			};
 			buildConfigurationList = F1C81F62261B5AC700B4DDD6 /* Build configuration list for PBXProject "WhatToBuyNotificationApp" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				ja,
 				Base,
+				en,
 			);
 			mainGroup = F1C81F5E261B5AC700B4DDD6;
 			productRefGroup = F1C81F68261B5AC700B4DDD6 /* Products */;
@@ -355,10 +422,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1C81F77261B5AC800B4DDD6 /* LaunchScreen.storyboard in Resources */,
-				F10A5A692650EE1700D0BC10 /* BuyItemRegister.storyboard in Resources */,
+				F16E474A2656B383009CFF8C /* Localizable.strings in Resources */,
+				F10A5A692650EE1700D0BC10 /* InputBuyItem.storyboard in Resources */,
 				F10A5AD1265110FB00D0BC10 /* TabBarController.storyboard in Resources */,
-				F10A5A6E2650EE2700D0BC10 /* BuyItemEdit.storyboard in Resources */,
 				F10A5A5F2650EDF700D0BC10 /* BuyItemDetail.storyboard in Resources */,
+				F1A147212652B64F00F4CF1F /* BuyListTableViewCell.xib in Resources */,
 				F10A5A642650EE0500D0BC10 /* Setting.storyboard in Resources */,
 				F1C81F74261B5AC800B4DDD6 /* Assets.xcassets in Resources */,
 				F1C81F72261B5AC700B4DDD6 /* BuyItemList.storyboard in Resources */,
@@ -381,6 +449,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A7C06F8F0574122962C7DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatToBuyNotificationApp/Pods-WhatToBuyNotificationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatToBuyNotificationApp/Pods-WhatToBuyNotificationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatToBuyNotificationApp/Pods-WhatToBuyNotificationApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7AFDC16312091F56D94CEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC803CA98CE94E8FE7AE7050 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4CD4F87DDBA905F815A01A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatToBuyNotificationApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6FA513BB8554ABAD4BCA9A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatToBuyNotificationAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1ED302926569B9C002065D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1C81F63261B5AC700B4DDD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -388,12 +578,14 @@
 			files = (
 				F10A5A7B2650EF1300D0BC10 /* BuyItemListPresenter.swift in Sources */,
 				F10A5A942650F07600D0BC10 /* BuyItemListRouter.swift in Sources */,
+				F1ED303B26569CB6002065D3 /* R.generated.swift in Sources */,
 				F10A5AA82650F0AE00D0BC10 /* BuyItemEditRouter.swift in Sources */,
 				F10A5AB72650F0EC00D0BC10 /* SettingInteractor.swift in Sources */,
 				F10A5A4D2650EDA400D0BC10 /* SettingViewController.swift in Sources */,
 				F10A5AC62650F9F300D0BC10 /* TabBarController.swift in Sources */,
 				F10A5AAD2650F0CD00D0BC10 /* BuyItemListInteractor.swift in Sources */,
 				F10A5AB22650F0E100D0BC10 /* BuyItemDetailInteractor.swift in Sources */,
+				F1A147162652B55C00F4CF1F /* ContainerTableViewController.swift in Sources */,
 				F10A5A8F2650F04B00D0BC10 /* BuyItemEditPresenter.swift in Sources */,
 				F1C81F6F261B5AC700B4DDD6 /* BuyItemListViewController.swift in Sources */,
 				F10A5A802650F01800D0BC10 /* BuyItemDetailPresenter.swift in Sources */,
@@ -405,10 +597,10 @@
 				F1C81F6D261B5AC700B4DDD6 /* SceneDelegate.swift in Sources */,
 				F10A5A992650F08400D0BC10 /* BuyItemDetailRouter.swift in Sources */,
 				F10A5AA32650F0A300D0BC10 /* BuyItemRegisterRouter.swift in Sources */,
-				F10A5A5A2650EDD100D0BC10 /* BuyItemEditViewController.swift in Sources */,
 				F10A5A8A2650F03900D0BC10 /* BuyItemRegisterPresenter.swift in Sources */,
 				F10A5A462650ED3A00D0BC10 /* BuyItemDetailViewController.swift in Sources */,
-				F10A5A552650EDBC00D0BC10 /* BuyItemRegisterViewController.swift in Sources */,
+				F10A5A552650EDBC00D0BC10 /* InputBuyItemViewController.swift in Sources */,
+				F1A147202652B64F00F4CF1F /* BuyListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,10 +636,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		F16E474C2656B383009CFF8C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16E474B2656B383009CFF8C /* ja */,
+				F11F048E2656BF24009BF21A /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
 		F1C81F70261B5AC700B4DDD6 /* BuyItemList.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F1C81F71261B5AC700B4DDD6 /* Base */,
+				F16E47532656B6D3009CFF8C /* ja */,
 			);
 			name = BuyItemList.storyboard;
 			sourceTree = "<group>";
@@ -456,6 +659,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F1C81F76261B5AC800B4DDD6 /* Base */,
+				F16E47392656B31F009CFF8C /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -467,6 +671,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -528,6 +733,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -581,6 +787,7 @@
 		};
 		F1C81F92261B5AC800B4DDD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F51460C3C76C4DF53D2052 /* Pods-WhatToBuyNotificationApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -600,6 +807,7 @@
 		};
 		F1C81F93261B5AC800B4DDD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3B3688ABE71EA853A6BE9F /* Pods-WhatToBuyNotificationApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -619,6 +827,7 @@
 		};
 		F1C81F95261B5AC800B4DDD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC050B6DBDBBC96615FA83C6 /* Pods-WhatToBuyNotificationAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -641,6 +850,7 @@
 		};
 		F1C81F96261B5AC800B4DDD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFDDD747D670D40E1DAA4CCB /* Pods-WhatToBuyNotificationAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -663,6 +873,7 @@
 		};
 		F1C81F98261B5AC800B4DDD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EB48519D669D77B8CD6DBF /* Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -683,6 +894,7 @@
 		};
 		F1C81F99261B5AC800B4DDD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF28333DB9D4C3F19A22178 /* Pods-WhatToBuyNotificationApp-WhatToBuyNotificationAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

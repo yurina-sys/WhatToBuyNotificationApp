@@ -8,6 +8,8 @@ target 'WhatToBuyNotificationApp' do
   # Pods for WhatToBuyNotificationApp
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RealmSwift'
+  pod 'R.swift'
 
   target 'WhatToBuyNotificationAppTests' do
     inherit! :search_paths
