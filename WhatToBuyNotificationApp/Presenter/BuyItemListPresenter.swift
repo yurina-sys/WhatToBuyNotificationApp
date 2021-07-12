@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+/// 買うものリスト画面Presenter
+final class BuyItemListPresenter {
+    
+    weak var view: BuyItemListViewProtocol?
+    var interactor: BuyItemListInteractorProtocol?
+    var router: BuyItemListRouterProtocol?
+}
+
+extension BuyItemListPresenter: BuyItemListPresenterProtocol {
+    func gotoInputItemView() {
+        self.router?.gotoInputBuyItemView()
+    }
+    
+}

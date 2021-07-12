@@ -21,11 +21,8 @@ class TabBarController: UITabBarController {
     
     /// ナビコンを埋め込んだタブバーを作成
     private func setupTabBar() {
-        // お買い物リスト画面
-        guard let buyItemListVC = UIStoryboard(name: "BuyItemList", bundle: nil).instantiateViewController(withIdentifier: "BuyItemList") as? BuyItemListViewController else {
-            return
-        }
-        let naviconBuyItemList = UINavigationController(rootViewController: buyItemListVC)
+        // ナビコンに埋め込んだ買うものリスト画面を生成
+        let naviconBuyItemList = UINavigationController(rootViewController: BuyItemListRouter.buyItemListViewAssembleModules())
         naviconBuyItemList.navigationItem.backBarButtonItem = UIBarButtonItem(image: UIImage(named: "back_arrow_icom"), style: .plain, target: self, action: nil)
         naviconBuyItemList.tabBarItem = UITabBarItem(title: "買うもの", image: nil, tag: 0)
         

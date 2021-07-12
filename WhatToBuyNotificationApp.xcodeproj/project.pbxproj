@@ -19,24 +19,34 @@
 		F10A5A7B2650EF1300D0BC10 /* BuyItemListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7A2650EF1300D0BC10 /* BuyItemListPresenter.swift */; };
 		F10A5A802650F01800D0BC10 /* BuyItemDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7F2650F01800D0BC10 /* BuyItemDetailPresenter.swift */; };
 		F10A5A852650F02600D0BC10 /* SettingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A842650F02600D0BC10 /* SettingPresenter.swift */; };
-		F10A5A8A2650F03900D0BC10 /* BuyItemRegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A892650F03900D0BC10 /* BuyItemRegisterPresenter.swift */; };
+		F10A5A8A2650F03900D0BC10 /* InputBuyItemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A892650F03900D0BC10 /* InputBuyItemPresenter.swift */; };
 		F10A5A8F2650F04B00D0BC10 /* BuyItemEditPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A8E2650F04B00D0BC10 /* BuyItemEditPresenter.swift */; };
 		F10A5A942650F07600D0BC10 /* BuyItemListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A932650F07600D0BC10 /* BuyItemListRouter.swift */; };
 		F10A5A992650F08400D0BC10 /* BuyItemDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A982650F08400D0BC10 /* BuyItemDetailRouter.swift */; };
 		F10A5A9E2650F09000D0BC10 /* SettingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A9D2650F09000D0BC10 /* SettingRouter.swift */; };
-		F10A5AA32650F0A300D0BC10 /* BuyItemRegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AA22650F0A300D0BC10 /* BuyItemRegisterRouter.swift */; };
-		F10A5AA82650F0AE00D0BC10 /* BuyItemEditRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AA72650F0AE00D0BC10 /* BuyItemEditRouter.swift */; };
+		F10A5AA32650F0A300D0BC10 /* InputBuyItemRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AA22650F0A300D0BC10 /* InputBuyItemRouter.swift */; };
 		F10A5AAD2650F0CD00D0BC10 /* BuyItemListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AAC2650F0CD00D0BC10 /* BuyItemListInteractor.swift */; };
 		F10A5AB22650F0E100D0BC10 /* BuyItemDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AB12650F0E100D0BC10 /* BuyItemDetailInteractor.swift */; };
 		F10A5AB72650F0EC00D0BC10 /* SettingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AB62650F0EC00D0BC10 /* SettingInteractor.swift */; };
-		F10A5ABC2650F10800D0BC10 /* BuyItemRegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5ABB2650F10800D0BC10 /* BuyItemRegisterInteractor.swift */; };
+		F10A5ABC2650F10800D0BC10 /* InputBuyItemInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5ABB2650F10800D0BC10 /* InputBuyItemInteractor.swift */; };
 		F10A5AC12650F11800D0BC10 /* BuyItemEditInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AC02650F11800D0BC10 /* BuyItemEditInteractor.swift */; };
 		F10A5AC62650F9F300D0BC10 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5AC52650F9F300D0BC10 /* TabBarController.swift */; };
 		F10A5AD1265110FB00D0BC10 /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A5AD0265110FB00D0BC10 /* TabBarController.storyboard */; };
+		F15245DC265BFA7900FB8219 /* RouterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15245DB265BFA7900FB8219 /* RouterProtocols.swift */; };
+		F15245E1265BFAA200FB8219 /* InteractorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15245E0265BFAA200FB8219 /* InteractorProtocols.swift */; };
+		F1524627265E9B5500FB8219 /* BuyItemListViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1524626265E9B5500FB8219 /* BuyItemListViewProtocols.swift */; };
+		F152462F265E9C5200FB8219 /* InputBuyItemViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F152462E265E9C5200FB8219 /* InputBuyItemViewProtocols.swift */; };
+		F1524634265E9CB200FB8219 /* TransitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1524633265E9CB200FB8219 /* TransitionProtocol.swift */; };
 		F16E474A2656B383009CFF8C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F16E474C2656B383009CFF8C /* Localizable.strings */; };
 		F1A147162652B55C00F4CF1F /* ContainerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A147152652B55C00F4CF1F /* ContainerTableViewController.swift */; };
 		F1A147202652B64F00F4CF1F /* BuyListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1471E2652B64F00F4CF1F /* BuyListTableViewCell.swift */; };
 		F1A147212652B64F00F4CF1F /* BuyListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A1471F2652B64F00F4CF1F /* BuyListTableViewCell.xib */; };
+		F1C04D1226995A56009681E6 /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D1126995A56009681E6 /* UITextViewExtension.swift */; };
+		F1C04D1D26995E33009681E6 /* UIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D1C26995E33009681E6 /* UIProtocol.swift */; };
+		F1C04D2F269964B4009681E6 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D2E269964B4009681E6 /* UITextFieldExtension.swift */; };
+		F1C04D3426998212009681E6 /* UIDatePickerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D3326998212009681E6 /* UIDatePickerExtension.swift */; };
+		F1C04D50269C8685009681E6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D4F269C8685009681E6 /* StringExtension.swift */; };
+		F1C04D55269C870C009681E6 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D54269C870C009681E6 /* DateExtension.swift */; };
 		F1C81F6B261B5AC700B4DDD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */; };
 		F1C81F6D261B5AC700B4DDD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */; };
 		F1C81F6F261B5AC700B4DDD6 /* BuyItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6E261B5AC700B4DDD6 /* BuyItemListViewController.swift */; };
@@ -83,27 +93,37 @@
 		F10A5A7A2650EF1300D0BC10 /* BuyItemListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemListPresenter.swift; sourceTree = "<group>"; };
 		F10A5A7F2650F01800D0BC10 /* BuyItemDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemDetailPresenter.swift; sourceTree = "<group>"; };
 		F10A5A842650F02600D0BC10 /* SettingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPresenter.swift; sourceTree = "<group>"; };
-		F10A5A892650F03900D0BC10 /* BuyItemRegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemRegisterPresenter.swift; sourceTree = "<group>"; };
+		F10A5A892650F03900D0BC10 /* InputBuyItemPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBuyItemPresenter.swift; sourceTree = "<group>"; };
 		F10A5A8E2650F04B00D0BC10 /* BuyItemEditPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemEditPresenter.swift; sourceTree = "<group>"; };
 		F10A5A932650F07600D0BC10 /* BuyItemListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemListRouter.swift; sourceTree = "<group>"; };
 		F10A5A982650F08400D0BC10 /* BuyItemDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemDetailRouter.swift; sourceTree = "<group>"; };
 		F10A5A9D2650F09000D0BC10 /* SettingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRouter.swift; sourceTree = "<group>"; };
-		F10A5AA22650F0A300D0BC10 /* BuyItemRegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemRegisterRouter.swift; sourceTree = "<group>"; };
-		F10A5AA72650F0AE00D0BC10 /* BuyItemEditRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemEditRouter.swift; sourceTree = "<group>"; };
+		F10A5AA22650F0A300D0BC10 /* InputBuyItemRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBuyItemRouter.swift; sourceTree = "<group>"; };
 		F10A5AAC2650F0CD00D0BC10 /* BuyItemListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemListInteractor.swift; sourceTree = "<group>"; };
 		F10A5AB12650F0E100D0BC10 /* BuyItemDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemDetailInteractor.swift; sourceTree = "<group>"; };
 		F10A5AB62650F0EC00D0BC10 /* SettingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingInteractor.swift; sourceTree = "<group>"; };
-		F10A5ABB2650F10800D0BC10 /* BuyItemRegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemRegisterInteractor.swift; sourceTree = "<group>"; };
+		F10A5ABB2650F10800D0BC10 /* InputBuyItemInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBuyItemInteractor.swift; sourceTree = "<group>"; };
 		F10A5AC02650F11800D0BC10 /* BuyItemEditInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemEditInteractor.swift; sourceTree = "<group>"; };
 		F10A5AC52650F9F300D0BC10 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F10A5AD0265110FB00D0BC10 /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
 		F11F048E2656BF24009BF21A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F15245DB265BFA7900FB8219 /* RouterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocols.swift; sourceTree = "<group>"; };
+		F15245E0265BFAA200FB8219 /* InteractorProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorProtocols.swift; sourceTree = "<group>"; };
+		F1524626265E9B5500FB8219 /* BuyItemListViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemListViewProtocols.swift; sourceTree = "<group>"; };
+		F152462E265E9C5200FB8219 /* InputBuyItemViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBuyItemViewProtocols.swift; sourceTree = "<group>"; };
+		F1524633265E9CB200FB8219 /* TransitionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionProtocol.swift; sourceTree = "<group>"; };
 		F16E47392656B31F009CFF8C /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F16E474B2656B383009CFF8C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F16E47532656B6D3009CFF8C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/BuyItemList.strings; sourceTree = "<group>"; };
 		F1A147152652B55C00F4CF1F /* ContainerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTableViewController.swift; sourceTree = "<group>"; };
 		F1A1471E2652B64F00F4CF1F /* BuyListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListTableViewCell.swift; sourceTree = "<group>"; };
 		F1A1471F2652B64F00F4CF1F /* BuyListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyListTableViewCell.xib; sourceTree = "<group>"; };
+		F1C04D1126995A56009681E6 /* UITextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
+		F1C04D1C26995E33009681E6 /* UIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProtocol.swift; sourceTree = "<group>"; };
+		F1C04D2E269964B4009681E6 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		F1C04D3326998212009681E6 /* UIDatePickerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePickerExtension.swift; sourceTree = "<group>"; };
+		F1C04D4F269C8685009681E6 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		F1C04D54269C870C009681E6 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		F1C81F67261B5AC700B4DDD6 /* WhatToBuyNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToBuyNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -206,8 +226,8 @@
 				F10A5A932650F07600D0BC10 /* BuyItemListRouter.swift */,
 				F10A5A982650F08400D0BC10 /* BuyItemDetailRouter.swift */,
 				F10A5A9D2650F09000D0BC10 /* SettingRouter.swift */,
-				F10A5AA22650F0A300D0BC10 /* BuyItemRegisterRouter.swift */,
-				F10A5AA72650F0AE00D0BC10 /* BuyItemEditRouter.swift */,
+				F10A5AA22650F0A300D0BC10 /* InputBuyItemRouter.swift */,
+				F15245DB265BFA7900FB8219 /* RouterProtocols.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -218,8 +238,9 @@
 				F10A5AAC2650F0CD00D0BC10 /* BuyItemListInteractor.swift */,
 				F10A5AB12650F0E100D0BC10 /* BuyItemDetailInteractor.swift */,
 				F10A5AB62650F0EC00D0BC10 /* SettingInteractor.swift */,
-				F10A5ABB2650F10800D0BC10 /* BuyItemRegisterInteractor.swift */,
+				F10A5ABB2650F10800D0BC10 /* InputBuyItemInteractor.swift */,
 				F10A5AC02650F11800D0BC10 /* BuyItemEditInteractor.swift */,
+				F15245E0265BFAA200FB8219 /* InteractorProtocols.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -230,7 +251,7 @@
 				F10A5A7A2650EF1300D0BC10 /* BuyItemListPresenter.swift */,
 				F10A5A7F2650F01800D0BC10 /* BuyItemDetailPresenter.swift */,
 				F10A5A842650F02600D0BC10 /* SettingPresenter.swift */,
-				F10A5A892650F03900D0BC10 /* BuyItemRegisterPresenter.swift */,
+				F10A5A892650F03900D0BC10 /* InputBuyItemPresenter.swift */,
 				F10A5A8E2650F04B00D0BC10 /* BuyItemEditPresenter.swift */,
 			);
 			path = Presenter;
@@ -243,6 +264,17 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
+		F1524625265E9B3A00FB8219 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F1524626265E9B5500FB8219 /* BuyItemListViewProtocols.swift */,
+				F152462E265E9C5200FB8219 /* InputBuyItemViewProtocols.swift */,
+				F1524633265E9CB200FB8219 /* TransitionProtocol.swift */,
+				F1C04D1C26995E33009681E6 /* UIProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		F1A1471D2652B5E800F4CF1F /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +282,18 @@
 				F1A1471F2652B64F00F4CF1F /* BuyListTableViewCell.xib */,
 			);
 			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		F1C04D1026995A20009681E6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1C04D1126995A56009681E6 /* UITextViewExtension.swift */,
+				F1C04D2E269964B4009681E6 /* UITextFieldExtension.swift */,
+				F1C04D3326998212009681E6 /* UIDatePickerExtension.swift */,
+				F1C04D4F269C8685009681E6 /* StringExtension.swift */,
+				F1C04D54269C870C009681E6 /* DateExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		F1C81F5E261B5AC700B4DDD6 = {
@@ -277,6 +321,8 @@
 		F1C81F69261B5AC700B4DDD6 /* WhatToBuyNotificationApp */ = {
 			isa = PBXGroup;
 			children = (
+				F1C04D1026995A20009681E6 /* Extension */,
+				F1524625265E9B3A00FB8219 /* Protocols */,
 				F10A5A4A2650ED6B00D0BC10 /* View */,
 				F10A5A772650EEC900D0BC10 /* Presenter */,
 				F10A5A722650EE7F00D0BC10 /* Router */,
@@ -577,27 +623,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				F10A5A7B2650EF1300D0BC10 /* BuyItemListPresenter.swift in Sources */,
+				F1C04D55269C870C009681E6 /* DateExtension.swift in Sources */,
+				F1524627265E9B5500FB8219 /* BuyItemListViewProtocols.swift in Sources */,
 				F10A5A942650F07600D0BC10 /* BuyItemListRouter.swift in Sources */,
 				F1ED303B26569CB6002065D3 /* R.generated.swift in Sources */,
-				F10A5AA82650F0AE00D0BC10 /* BuyItemEditRouter.swift in Sources */,
 				F10A5AB72650F0EC00D0BC10 /* SettingInteractor.swift in Sources */,
+				F15245E1265BFAA200FB8219 /* InteractorProtocols.swift in Sources */,
 				F10A5A4D2650EDA400D0BC10 /* SettingViewController.swift in Sources */,
+				F152462F265E9C5200FB8219 /* InputBuyItemViewProtocols.swift in Sources */,
+				F1C04D50269C8685009681E6 /* StringExtension.swift in Sources */,
 				F10A5AC62650F9F300D0BC10 /* TabBarController.swift in Sources */,
+				F1C04D3426998212009681E6 /* UIDatePickerExtension.swift in Sources */,
 				F10A5AAD2650F0CD00D0BC10 /* BuyItemListInteractor.swift in Sources */,
 				F10A5AB22650F0E100D0BC10 /* BuyItemDetailInteractor.swift in Sources */,
+				F1C04D1D26995E33009681E6 /* UIProtocol.swift in Sources */,
 				F1A147162652B55C00F4CF1F /* ContainerTableViewController.swift in Sources */,
 				F10A5A8F2650F04B00D0BC10 /* BuyItemEditPresenter.swift in Sources */,
 				F1C81F6F261B5AC700B4DDD6 /* BuyItemListViewController.swift in Sources */,
 				F10A5A802650F01800D0BC10 /* BuyItemDetailPresenter.swift in Sources */,
+				F15245DC265BFA7900FB8219 /* RouterProtocols.swift in Sources */,
 				F10A5A9E2650F09000D0BC10 /* SettingRouter.swift in Sources */,
 				F1C81F6B261B5AC700B4DDD6 /* AppDelegate.swift in Sources */,
 				F10A5A852650F02600D0BC10 /* SettingPresenter.swift in Sources */,
-				F10A5ABC2650F10800D0BC10 /* BuyItemRegisterInteractor.swift in Sources */,
+				F10A5ABC2650F10800D0BC10 /* InputBuyItemInteractor.swift in Sources */,
 				F10A5AC12650F11800D0BC10 /* BuyItemEditInteractor.swift in Sources */,
 				F1C81F6D261B5AC700B4DDD6 /* SceneDelegate.swift in Sources */,
 				F10A5A992650F08400D0BC10 /* BuyItemDetailRouter.swift in Sources */,
-				F10A5AA32650F0A300D0BC10 /* BuyItemRegisterRouter.swift in Sources */,
-				F10A5A8A2650F03900D0BC10 /* BuyItemRegisterPresenter.swift in Sources */,
+				F1524634265E9CB200FB8219 /* TransitionProtocol.swift in Sources */,
+				F1C04D2F269964B4009681E6 /* UITextFieldExtension.swift in Sources */,
+				F10A5AA32650F0A300D0BC10 /* InputBuyItemRouter.swift in Sources */,
+				F1C04D1226995A56009681E6 /* UITextViewExtension.swift in Sources */,
+				F10A5A8A2650F03900D0BC10 /* InputBuyItemPresenter.swift in Sources */,
 				F10A5A462650ED3A00D0BC10 /* BuyItemDetailViewController.swift in Sources */,
 				F10A5A552650EDBC00D0BC10 /* InputBuyItemViewController.swift in Sources */,
 				F1A147202652B64F00F4CF1F /* BuyListTableViewCell.swift in Sources */,

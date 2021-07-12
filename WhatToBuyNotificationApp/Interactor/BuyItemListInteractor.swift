@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+final class BuyItemListInteractor: BuyItemListInteractorProtocol {
+    var presenter: BuyItemListPresenterProtocol?
+    
+    
+}
