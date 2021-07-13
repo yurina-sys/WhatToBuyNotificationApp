@@ -47,6 +47,8 @@
 		F1C04D3426998212009681E6 /* UIDatePickerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D3326998212009681E6 /* UIDatePickerExtension.swift */; };
 		F1C04D50269C8685009681E6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D4F269C8685009681E6 /* StringExtension.swift */; };
 		F1C04D55269C870C009681E6 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D54269C870C009681E6 /* DateExtension.swift */; };
+		F1C04D5A269DD9BF009681E6 /* BuyItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D59269DD9BF009681E6 /* BuyItemInfo.swift */; };
+		F1C04D60269DE59F009681E6 /* LogOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C04D5F269DE59F009681E6 /* LogOutput.swift */; };
 		F1C81F6B261B5AC700B4DDD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */; };
 		F1C81F6D261B5AC700B4DDD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */; };
 		F1C81F6F261B5AC700B4DDD6 /* BuyItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C81F6E261B5AC700B4DDD6 /* BuyItemListViewController.swift */; };
@@ -124,6 +126,8 @@
 		F1C04D3326998212009681E6 /* UIDatePickerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePickerExtension.swift; sourceTree = "<group>"; };
 		F1C04D4F269C8685009681E6 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		F1C04D54269C870C009681E6 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		F1C04D59269DD9BF009681E6 /* BuyItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemInfo.swift; sourceTree = "<group>"; };
+		F1C04D5F269DE59F009681E6 /* LogOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutput.swift; sourceTree = "<group>"; };
 		F1C81F67261B5AC700B4DDD6 /* WhatToBuyNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToBuyNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C81F6A261B5AC700B4DDD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1C81F6C261B5AC700B4DDD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -260,6 +264,7 @@
 		F10A5A792650EEDF00D0BC10 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				F1C04D59269DD9BF009681E6 /* BuyItemInfo.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -296,6 +301,14 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		F1C04D5E269DE50B009681E6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F1C04D5F269DE59F009681E6 /* LogOutput.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		F1C81F5E261B5AC700B4DDD6 = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +334,7 @@
 		F1C81F69261B5AC700B4DDD6 /* WhatToBuyNotificationApp */ = {
 			isa = PBXGroup;
 			children = (
+				F1C04D5E269DE50B009681E6 /* Resource */,
 				F1C04D1026995A20009681E6 /* Extension */,
 				F1524625265E9B3A00FB8219 /* Protocols */,
 				F10A5A4A2650ED6B00D0BC10 /* View */,
@@ -625,8 +639,10 @@
 				F10A5A7B2650EF1300D0BC10 /* BuyItemListPresenter.swift in Sources */,
 				F1C04D55269C870C009681E6 /* DateExtension.swift in Sources */,
 				F1524627265E9B5500FB8219 /* BuyItemListViewProtocols.swift in Sources */,
+				F1C04D5A269DD9BF009681E6 /* BuyItemInfo.swift in Sources */,
 				F10A5A942650F07600D0BC10 /* BuyItemListRouter.swift in Sources */,
 				F1ED303B26569CB6002065D3 /* R.generated.swift in Sources */,
+				F1C04D60269DE59F009681E6 /* LogOutput.swift in Sources */,
 				F10A5AB72650F0EC00D0BC10 /* SettingInteractor.swift in Sources */,
 				F15245E1265BFAA200FB8219 /* InteractorProtocols.swift in Sources */,
 				F10A5A4D2650EDA400D0BC10 /* SettingViewController.swift in Sources */,

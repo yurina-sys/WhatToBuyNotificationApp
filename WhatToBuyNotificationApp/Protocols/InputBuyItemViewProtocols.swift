@@ -20,6 +20,15 @@ protocol InputBuyItemPresenterProtocol: class {
     var router: InputBuyItemRouterProtocol? { get set }
     
     func inputBuyItemViewDismiss()
+    func registerBuyItemInfo()
+    func setBuyItemName(name: String?)
+    func setBuyItemCategory(category: String?)
+    func setBuyItemCount(count: Int?)
+    func setBuyItemShop(shopName: String?)
+    func setBuyItemBudget(budget: Int?)
+    func setBuyItemNotificationDate(date: Date?)
+    func setBuyItemMemo(memo: String?)
+    
 }
 
 protocol InputBuyItemInteractorProtocol: class {

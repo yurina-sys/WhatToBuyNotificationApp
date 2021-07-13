@@ -14,5 +14,7 @@ extension String {
         return ""
     }
     
-    
+    func formatToInt() -> Int {
+        return Int(self) ?? 0
+    }
 }

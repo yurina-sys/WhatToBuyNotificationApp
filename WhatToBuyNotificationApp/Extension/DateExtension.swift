@@ -15,4 +15,12 @@ extension Date {
         
         return formatter.string(from: self)
     }
+    
+    /// 現在時刻の取得（完全系）
+    func getNowDateTimeCompleteness() -> String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss.SSSZ"
+        return formatter.string(from: Date())
+    }
 }

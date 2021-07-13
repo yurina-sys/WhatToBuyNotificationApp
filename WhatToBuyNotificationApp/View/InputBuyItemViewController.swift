@@ -52,7 +52,7 @@ final class InputBuyItemViewController: UIViewController {
         
         // 登録ボタン押下時
         self.registerButton.rx.tap.subscribe { [weak self] _ in
-            self?.dismiss(animated: true, completion: nil)
+            self?.presenter?.registerBuyItemInfo()
         }.disposed(by: disposeBag)
         
         // 買うもの入力フィールド
@@ -68,6 +68,7 @@ final class InputBuyItemViewController: UIViewController {
         self.stackViewYFrame = floor(self.stackView.frame.origin.y)
     }
     
+    // UI設定
     func UIConfigure() {
         // ボーダーつける
         self.inputBuyItemField.decrateFieldBorder()
@@ -109,13 +110,20 @@ final class InputBuyItemViewController: UIViewController {
         }).disposed(by: disposeBag)
         
         // キーボード閉じた時
-        self.inputBuyItemField.rx.controlEvent(.editingDidEnd).asDriver().drive(onNext: { _ in
+        self.inputBuyItemField.rx.controlEvent(.editingDidEnd).asDriver().drive(onNext: { [weak self] _ in
             print("はしった！2")
+            
+            guard let self = self else {
+                return
+            }
+            // 買うもの名前セット
+            self.presenter?.setBuyItemName(name: self.inputBuyItemField.text)
+            
         }).disposed(by: disposeBag)
         
         
     }
-    
+
     // 予算入力欄のRX設定
     func inputBudgetFieldConfigureRX() {
         // フィールドタップ時
@@ -129,8 +137,15 @@ final class InputBuyItemViewController: UIViewController {
         }).disposed(by: disposeBag)
         
         // キーボード閉じた時
-        self.inputBudgetField.rx.controlEvent(.editingDidEnd).asDriver().drive(onNext: { _ in
+        self.inputBudgetField.rx.controlEvent(.editingDidEnd).asDriver().drive(onNext: { [weak self] _ in
+            
+            guard let self = self else {
+                return
+            }
+            
             print("はしった！2")
+            // 予算をセット
+            self.presenter?.setBuyItemBudget(budget: self.inputBudgetField.text?.formatToInt())
         }).disposed(by: disposeBag)
         
         
@@ -144,8 +159,12 @@ final class InputBuyItemViewController: UIViewController {
         }).disposed(by: disposeBag)
         
         // キーボード閉じた時
-        self.inputMemoField.rx.didEndEditing.asDriver().drive(onNext: {
+        self.inputMemoField.rx.didEndEditing.asDriver().drive(onNext: { [weak self] _ in
+            guard let self = self else {
+                return
+            }
             print("走った！6")
+            self.presenter?.setBuyItemMemo(memo: self.inputMemoField.text)
         }).disposed(by: disposeBag)
         
     }
@@ -153,7 +172,8 @@ final class InputBuyItemViewController: UIViewController {
     // 購入予定お知らせ日時のDatePickerから日時を受け取る（完了ボタンタップ）
     @objc func pushDatepickerCloseButton() {
         self.inputInformDateField.endEditing(true)
-        
+        // お知らせ日時セット
+        self.presenter?.setBuyItemNotificationDate(date: self.datePicker?.date)
         self.inputInformDateField.text = self.datePicker?.date.formatyyyMMddFromDate() ?? ""
     }
     
